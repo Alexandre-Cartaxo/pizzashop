@@ -16,7 +16,7 @@ Esse projeto tem como foco exercitar tanto os conceitos que vimos sobre o React,
 - [X] Notificações toast 
 - [X] Página de cadastro do restaurante
 - [X] Layout do app com cabeçalho 
-- [ ] ThemeToggle e menu da conta
-- [ ] Explicando ThemeToggle
-- [ ] Página de listagem de pedidos
+- [X] ThemeToggle e menu da conta
+- [X] Explicando ThemeToggle
+- [X] Página de listagem de pedidos
 - [ ] Componente filtro de pedidos
