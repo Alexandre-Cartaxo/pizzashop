@@ -19,4 +19,10 @@ Esse projeto tem como foco exercitar tanto os conceitos que vimos sobre o React,
 - [X] ThemeToggle e menu da conta
 - [X] Explicando ThemeToggle
 - [X] Página de listagem de pedidos
-- [ ] Componente filtro de pedidos
+- [X] Componente filtro de pedidos
+- [X] Componente Paginação
+- [X] Componente : Detalhes do pedido 
+- [ ] Página : Dashboard 
+- [ ] Gráfico de receita no período 
+- [ ] Gráfico dos produtos populares
+- [ ] Página 404 (Not Found)
