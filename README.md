@@ -22,7 +22,7 @@ Esse projeto tem como foco exercitar tanto os conceitos que vimos sobre o React,
 - [X] Componente filtro de pedidos
 - [X] Componente Paginação
 - [X] Componente : Detalhes do pedido 
-- [ ] Página : Dashboard 
-- [ ] Gráfico de receita no período 
-- [ ] Gráfico dos produtos populares
+- [X] Página : Dashboard 
+- [X] Gráfico de receita no período 
+- [X] Gráfico dos produtos populares
 - [ ] Página 404 (Not Found)
