@@ -25,4 +25,14 @@ Esse projeto tem como foco exercitar tanto os conceitos que vimos sobre o React,
 - [X] Página : Dashboard 
 - [X] Gráfico de receita no período 
 - [X] Gráfico dos produtos populares
-- [ ] Página 404 (Not Found)
+- [X] Página 404 (Not Found)
+
+### Conexão com API 
+
+- [ ] Rodando API localmente
+- [ ] Configurando API client
+- [ ] Autenticação de usuário 
+- [ ] Cadastro de restaurante 
+- [ ] Perfil no cabeçálho 
+- [ ] Loading state no perfil 
+  
