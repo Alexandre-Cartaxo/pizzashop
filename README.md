@@ -32,7 +32,16 @@ Esse projeto tem como foco exercitar tanto os conceitos que vimos sobre o React,
 - [X] Rodando API localmente
 - [X] Configurando API client
 - [X] Autenticação de usuário 
-- [ ] Cadastro de restaurante 
-- [ ] Perfil no cabeçálho 
-- [ ] Loading state no perfil 
+- [X] Cadastro de restaurante 
+- [X] Perfil no cabeçálho 
+- [X] Loading state no perfil 
+- [X] Modal de atualização do perfil 
+- [ ] Atualizando o perfil 
+- [ ] Atualizando HTTP state
+- [ ] Interface otimista
+- [ ] Logout do usuário
+- [ ] Listagem de Pedidos 
+- [ ] Paginação dos pedidos 
+- [ ] 
+
   
