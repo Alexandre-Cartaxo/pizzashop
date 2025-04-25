@@ -29,9 +29,9 @@ Esse projeto tem como foco exercitar tanto os conceitos que vimos sobre o React,
 
 ### Conexão com API 
 
-- [ ] Rodando API localmente
-- [ ] Configurando API client
-- [ ] Autenticação de usuário 
+- [X] Rodando API localmente
+- [X] Configurando API client
+- [X] Autenticação de usuário 
 - [ ] Cadastro de restaurante 
 - [ ] Perfil no cabeçálho 
 - [ ] Loading state no perfil 
