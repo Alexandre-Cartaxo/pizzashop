@@ -36,9 +36,9 @@ Esse projeto tem como foco exercitar tanto os conceitos que vimos sobre o React,
 - [X] Perfil no cabeçálho 
 - [X] Loading state no perfil 
 - [X] Modal de atualização do perfil 
-- [ ] Atualizando o perfil 
-- [ ] Atualizando HTTP state
-- [ ] Interface otimista
+- [X] Atualizando o perfil 
+- [X] Atualizando HTTP state
+- [X] Interface otimista
 - [ ] Logout do usuário
 - [ ] Listagem de Pedidos 
 - [ ] Paginação dos pedidos 
