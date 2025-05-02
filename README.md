@@ -42,6 +42,5 @@ Esse projeto tem como foco exercitar tanto os conceitos que vimos sobre o React,
 - [ ] Logout do usuário
 - [ ] Listagem de Pedidos 
 - [ ] Paginação dos pedidos 
-- [ ] 
 
   
