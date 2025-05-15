@@ -39,8 +39,13 @@ Esse projeto tem como foco exercitar tanto os conceitos que vimos sobre o React,
 - [X] Atualizando o perfil 
 - [X] Atualizando HTTP state
 - [X] Interface otimista
-- [ ] Logout do usuário
-- [ ] Listagem de Pedidos 
-- [ ] Paginação dos pedidos 
+- [X] Logout do usuário
+- [X] Listagem de Pedidos 
+- [X] Paginação dos pedidos
+- [X] Filtro dos pedidos
+- [X] Detalhe dos pedidos
+- [ ] Cancelar pedido
+
+ 
 
   
