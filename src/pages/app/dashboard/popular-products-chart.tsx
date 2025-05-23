@@ -2,6 +2,8 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import colors from 'tailwindcss/colors'
 import { ResponsiveContainer, PieChart, Pie, Cell } from 'recharts'
 import { BarChart } from "lucide-react";
+import { useQuery } from "@tanstack/react-query";
+import { getPopularProducts } from "@/api/get-popular-products";
 
 
 const data = [
@@ -22,6 +24,13 @@ const COLORS = [
 
 
 export function PopularProductsChart() {
+
+  const {data: popularProducts} = useQuery({
+    queryKey: ['metrics', 'popular-products'],
+    queryFn: getPopularProducts,
+  })
+
+
   return (
     <Card className="col-span-3">
       <CardHeader className="pb-8">
@@ -33,10 +42,11 @@ export function PopularProductsChart() {
         </div>
       </CardHeader>
       <CardContent>
-        <ResponsiveContainer width="100%" height={240}>
+        {popularProducts && (
+          <ResponsiveContainer width="100%" height={240}>
           <PieChart data={data} style={{ fontSize: 12 }}>
             <Pie
-              data={data}
+              data={popularProducts}
               dataKey="amount"
               nameKey="product"
               cx="50%"
@@ -67,16 +77,16 @@ export function PopularProductsChart() {
                     textAnchor={x > cx ? 'start' : 'end'}
                     dominantBaseline="central"
                   >
-                    {data[index].product.length > 12
-                      ? data[index].product.substring(0, 12).concat('...')
-                      : data[index].product}{' '}
+                    {popularProducts[index].product.length > 12
+                      ? popularProducts[index].product.substring(0, 12).concat('...')
+                      : popularProducts[index].product}{' '}
                     ({value})
                   </text>
                 )
               }}
               >
 
-              {data.map((_, index) => {
+              {popularProducts.map((_, index) => {
                 return (
                   <Cell key={`cell-${index}`}
                     fill={COLORS[index]}
@@ -86,6 +96,7 @@ export function PopularProductsChart() {
             </Pie>
           </PieChart>
         </ResponsiveContainer>
+        )}
       </CardContent>
     </Card>
   )

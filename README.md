@@ -44,8 +44,9 @@ Esse projeto tem como foco exercitar tanto os conceitos que vimos sobre o React,
 - [X] Paginação dos pedidos
 - [X] Filtro dos pedidos
 - [X] Detalhe dos pedidos
-- [ ] Cancelar pedido
-
- 
-
-  
+- [X] Cancelar pedido
+- [X] Operações no status do pedido
+- [X] Logout automatico
+- [X] Métricas no Dashboard
+- [X] Produtos Populares
+- [ ] Receita no período 
