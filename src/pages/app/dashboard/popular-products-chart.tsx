@@ -6,13 +6,7 @@ import { useQuery } from "@tanstack/react-query";
 import { getPopularProducts } from "@/api/get-popular-products";
 
 
-const data = [
-  { product: 'Pepperoni', amount: 25 },
-  { product: 'Mussarela', amount: 23 },
-  { product: 'Marguerita', amount: 50 },
-  { product: '4 Queijos', amount: 30 },
-  { product: 'Frango com catupiry', amount: 77 },
-]
+
 
 const COLORS = [
   colors.sky["500"],

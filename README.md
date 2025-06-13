@@ -49,4 +49,5 @@ Esse projeto tem como foco exercitar tanto os conceitos que vimos sobre o React,
 - [X] Logout automatico
 - [X] Métricas no Dashboard
 - [X] Produtos Populares
-- [ ] Receita no período 
+- [X] Receita no período 
+   
