@@ -50,4 +50,12 @@ Esse projeto tem como foco exercitar tanto os conceitos que vimos sobre o React,
 - [X] Métricas no Dashboard
 - [X] Produtos Populares
 - [X] Receita no período 
+
+### Loading & Empty states
+
+- [X] Loading das métricas 
+- [X] Loading dos gráficos
+- [X] Loading dos pedidos 
+- [X] Loading do detalhe do pedido 
+- [X] Erros e página 404
    
